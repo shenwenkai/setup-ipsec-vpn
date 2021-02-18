@@ -1,3 +1,5 @@
+实测l2tp方式没问题（win7、win10、ipad都没问题，报错则按照文档走即可，尤其是windows的注册表值修改，不改确实不行），ipsec没有试，ikev2遇到了连接上但是无法上网的问题（也可能是我自己设置不对，先不管了，有一种能用就行，后续研究）
+
 # IPsec VPN Server Auto Setup Scripts
 
 [![Build Status](https://img.shields.io/github/workflow/status/hwdsl2/setup-ipsec-vpn/vpn%20test.svg?cacheSeconds=3600)](https://github.com/hwdsl2/setup-ipsec-vpn/actions) [![GitHub Stars](https://img.shields.io/github/stars/hwdsl2/setup-ipsec-vpn.svg?cacheSeconds=86400)](https://github.com/hwdsl2/setup-ipsec-vpn/stargazers) [![Docker Stars](https://img.shields.io/docker/stars/hwdsl2/ipsec-vpn-server.svg?cacheSeconds=86400)](https://github.com/hwdsl2/docker-ipsec-vpn-server) [![Docker Pulls](https://img.shields.io/docker/pulls/hwdsl2/ipsec-vpn-server.svg?cacheSeconds=86400)](https://github.com/hwdsl2/docker-ipsec-vpn-server)
