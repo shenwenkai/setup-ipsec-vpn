@@ -1,4 +1,4 @@
-实测l2tp方式没问题（win7、win10、ipad都没问题，报错则按照文档走即可，尤其是windows的注册表值修改，不改确实不行），ipsec没有试，ikev2遇到了连接上但是无法上网的问题（也可能是我自己设置不对，先不管了，有一种能用就行，后续研究）
+实测l2tp方式没问题（win7、win10、ipad都没问题，报错则按照文档走即可，尤其是windows的注册表值修改，不改确实不行；但是，有个坑就是如果centos主机自带的防火墙firewalld开启，规则可能和脚本中的iptables冲突，导致要么firewalld关闭才能用，要么开启firewalld后防火墙过不去导致vpn不能用，当然，如果好好调整一下防火墙规则，应该能两者并存，暂时作罢），ipsec没有试，ikev2遇到了连接上但是无法上网的问题（也可能是我自己设置不对，先不管了，有一种能用就行，后续研究）
 
 # IPsec VPN Server Auto Setup Scripts
 
